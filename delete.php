@@ -1,8 +1,8 @@
 <?php
 $id = $_GET['id'];
 
-require 'db/connect.php';
-require 'db/operation.php';
+require 'connect.php';
+require 'operation.php';
 
 $pddb = Connect();
 
